@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    width: 300px;
+    background-color: #FBFCD6;
+}
+
+#pomodoro {
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 192, 76, 0.2);
+    background-color: #FBFCD9;
+    
+}
+
+#duration {
+    margin-bottom: 5px;
+}
+
+button {
+    border: none;
+    background-color: #0012B8;
+    color: #FBFCD6;
+}
+
+#div {
+    font-size: 80px;
+}

@@ -13,12 +13,13 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <button id="stopButton" onclick="stop()">Stop</button>
-        <button id="startButton" onclick="setTime()">Start</button>
-        <button onclick="reset()">Reset</button>
-        <input id="duration" type="text">
-        
-        <div id="div"></div>
+        <div id="pomodoro">
+            <input id="duration" type="text" placeholder="duration in minutes">
+            <button onclick="reset()">Reset</button><br>
+            <button id="startButton" onclick="setTime()">Start</button>
+            <button id="stopButton" onclick="stop()">Stop</button>
+            <div id="div">00:00</div>
+        </div>
     </body>
     
     <!-- local js -->

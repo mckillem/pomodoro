@@ -36,6 +36,3 @@ function reset() {
     display.textContent = duration.value + ":00";
     clearInterval(interval);
 }
-
-window.onload = function () {        
-};
